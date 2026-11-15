@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17452e">
+  <title>Penjaga Hutan — Misi Life on Land</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-page="home" aria-label="Penjaga Hutan, Beranda">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M24 3 8 21h8L5 34h14v11h10V34h14L32 21h8z" fill="currentColor"/><path d="M21 31h6v14h-6z" fill="#9b6036"/></svg>
+      </span>
+      <span class="brand-name">PENJAGA <b>HUTAN</b><small>MISI LIFE ON LAND</small></span>
+    </a>
+    <div class="top-actions">
+      <span class="sdg-pill"><i></i> SDG 15 <b>Life on Land</b></span>
+      <span class="eco-pill"><span class="eco-leaf">✦</span><span>ECO POINT<b id="ecoPoints">0</b></span></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> PETUALANGAN MENJAGA ALAM</span>
+          <h1>Penjaga<br><em>Hutan</em></h1>
+          <p class="hero-subtitle">Misi Life on Land</p>
+          <p class="hero-description">Hutan memanggil! Jelajahi rimba, bantu satwa, dan jadilah pahlawan bagi alam Indonesia.</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" data-action="start"><span>▶</span> Mulai Bermain</button>
+            <button class="btn btn-wood" data-page="map"><span>⌖</span> Peta Misi</button>
+          </div>
+          <div class="hero-footnote"><span class="tiny-shield">15</span><span>Petualangan kecil, dampak besar.<br><b>Jaga kehidupan di daratan.</b></span></div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Penjaga hutan menjelajahi hutan tropis bersama satwa">
+          <div class="scene-sun"></div><div class="scene-cloud cloud-a"></div><div class="scene-cloud cloud-b"></div>
+          <div class="scene-mountain mountain-a"></div><div class="scene-mountain mountain-b"></div>
+          <div class="scene-canopy canopy-back"></div><div class="scene-ground"></div>
+          <div class="scene-river"></div>
+          <div class="scene-tree tree-left"><i></i></div><div class="scene-tree tree-right"><i></i></div>
+          <div class="scene-bush bush-one"></div><div class="scene-bush bush-two"></div>
+          <svg class="orangutan-art" viewBox="0 0 100 90" aria-hidden="true">
+            <path d="M12 61q7-23 39-22 26 1 36 22l-9 13H24z" fill="#a95d31" stroke="#573d2c" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M63 44q-1-18 12-24 13-7 22 5 8 12 0 26-8 12-22 8z" fill="#bb6738" stroke="#573d2c" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M71 38q6-7 16 0" fill="none" stroke="#edc58e" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="77" cy="39" r="2" fill="#3b2b23"/><circle cx="87" cy="39" r="2" fill="#3b2b23"/>
+            <path d="M78 48q5 4 10 0M31 69l-3 15m30-14 3 14" fill="none" stroke="#70442e" stroke-width="5" stroke-linecap="round"/>
+            <path d="M17 51q-10 5-7 20 2 10 10 4" fill="none" stroke="#a95d31" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <svg class="tiger-art" viewBox="0 0 130 90" aria-hidden="true">
+            <path d="M22 51q8-22 40-22h30q22 0 25 21l-5 17H25z" fill="#e5a944" stroke="#573d2c" stroke-width="5" stroke-linejoin="round"/>
+            <path d="m31 58-2 19m25-18-2 20m45-21 2 19m15-23 4 21" stroke="#5b4230" stroke-width="7" stroke-linecap="round"/>
+            <path d="M87 31q2-18 20-19l15 11-2 27-16 7-17-10z" fill="#e5a944" stroke="#573d2c" stroke-width="5" stroke-linejoin="round"/>
+            <path d="m94 16 4-9 10 5 7-8 9 15" fill="#e5a944" stroke="#573d2c" stroke-width="4" stroke-linejoin="round"/>
+            <path d="m35 34 9 10-10 8 11 8m16-30 8 12-10 8 10 11m19-29 7 11-8 7 9 11m18-27-7 11 8 8" fill="none" stroke="#5a402f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M109 39q6-5 11 1" fill="none" stroke="#49352a" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <svg class="hornbill-art" viewBox="0 0 100 70" aria-hidden="true">
+            <path d="M19 39q6-23 32-19 18 2 23 22-18-8-29 10-15 0-26-13z" fill="#263e32" stroke="#f4e8c8" stroke-width="3"/>
+            <path d="M42 25q9-19 26-11 13 7 11 24-11-8-22-2z" fill="#f3ead1" stroke="#263e32" stroke-width="3"/>
+            <path d="M68 19q17-13 25-2-4 12-23 12z" fill="#e2aa43" stroke="#573d2c" stroke-width="3"/>
+            <path d="M73 16q2-14 14-10 8 4 5 12-9-5-19 2z" fill="#cc6140" stroke="#573d2c" stroke-width="2"/>
+            <circle cx="69" cy="21" r="2" fill="#202c25"/><path d="M28 34 7 23l8 20-9 14 25-7" fill="#314e3d" stroke="#263e32" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+          <svg class="deer-art" viewBox="0 0 95 90" aria-hidden="true">
+            <path d="M13 57q6-17 33-15 19 1 28 17L65 70H20z" fill="#b68e59" stroke="#654c32" stroke-width="4" stroke-linejoin="round"/>
+            <path d="m57 46 3-21 15-12 13 14-7 24" fill="#c59b63" stroke="#654c32" stroke-width="4" stroke-linejoin="round"/>
+            <path d="m63 15-5-10m11 10 5-11m2 10 10-7m-6 10 11 2" fill="none" stroke="#654c32" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="73" cy="30" r="2" fill="#342b25"/><path d="m28 66-2 17m30-16 3 16" stroke="#654c32" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <svg class="ranger-art" viewBox="0 0 180 250" aria-hidden="true">
+            <ellipse cx="92" cy="235" rx="54" ry="10" fill="#24472b" opacity=".2"/>
+            <path d="m55 137-18 50 22 13 27-44m33-20 24 46-19 18-34-43" fill="#b46b3a" stroke="#573d2c" stroke-width="5" stroke-linejoin="round"/>
+            <path d="m50 187 26 5-9 22-34-2 2-12zM117 190l26-4 14 21-33 10-13-14z" fill="#493b30"/>
+            <path d="m56 99-20 32 17 45 38 12 39-19 6-43-23-31z" fill="#38734b" stroke="#28563b" stroke-width="5" stroke-linejoin="round"/>
+            <path d="m62 110-2 31 27 13 34-15-5-32-24-11z" fill="#e1ae76"/>
+            <path d="m48 64 6-30 20-20 36 2 22 24-5 41-15 24-39 1-23-19z" fill="#c47b45" stroke="#68442f" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M55 61q8-30 42-29t38 31q-24-14-42-10T55 61" fill="#e6bd52"/>
+            <path d="m46 38 44-21 50 16-3 13-91 3z" fill="#8d542f" stroke="#68442f" stroke-width="5" stroke-linejoin="round"/>
+            <path d="m82 73 4 2m25-1 4-2" stroke="#422f26" stroke-width="5" stroke-linecap="round"/>
+            <path d="M91 91q12 11 24-1" fill="none" stroke="#75402d" stroke-width="4" stroke-linecap="round"/>
+            <path d="m56 119-22 27m87-22 23 25" stroke="#c47b45" stroke-width="13" stroke-linecap="round"/>
+            <path d="m78 124 18 10 18-11v53H77z" fill="#e9b64d"/><path d="m85 144 11 9 10-10v33H85z" fill="#fff1ce"/>
+            <circle cx="97" cy="155" r="3" fill="#6d5537"/>
+          </svg>
+          <div class="scene-sign"><b>RIMBA KITA</b><small>RUMAH SEMUA</small></div>
+          <div class="scene-flower flower-one"></div><div class="scene-flower flower-two"></div>
+        </div>
+      </div>
+
+      <div class="section-heading"><span class="eyebrow">SIAPKAN PERLENGKAPANMU</span><h2>Petualangan menantimu!</h2></div>
+      <div class="feature-grid">
+        <button class="feature-card feature-play" data-action="start"><span class="feature-icon">▶</span><span><b>Mulai Bermain</b><small>Jalankan misi pertamamu</small></span><i>›</i></button>
+        <button class="feature-card" data-page="map"><span class="feature-icon">⌖</span><span><b>Peta Misi</b><small>Temukan jalan di rimba</small></span><i>›</i></button>
+        <button class="feature-card" data-page="encyclopedia"><span class="feature-icon">✿</span><span><b>Ensiklopedia</b><small>Kenali teman hutanmu</small></span><i>›</i></button>
+        <button class="feature-card" data-page="settings"><span class="feature-icon">⚙</span><span><b>Pengaturan</b><small>Atur petualanganmu</small></span><i>›</i></button>
+      </div>
+    </section>
+
+    <section id="map" class="page">
+      <div class="page-title">
+        <span class="eyebrow"><i></i> JELAJAHI WILAYAH</span><h1>Peta Petualangan</h1>
+        <p>Ikuti jejak di rimba. Selesaikan misi untuk membuka wilayah berikutnya!</p>
+      </div>
+      <div class="map-board">
+        <div class="map-label"><span>🌿</span><b>RIMBA NUSANTARA</b><small>WILAYAH PENJAGA HUTAN</small></div>
+        <button class="map-home btn btn-wood" data-page="home">⌂ Kembali ke Home</button>
+        <div class="map-waterfall"></div><div class="map-stream"></div>
+        <div class="map-bridge"><i></i><i></i><i></i><b></b></div>
+        <div class="map-path"></div>
+        <div class="map-forest forest-top"></div><div class="map-forest forest-bottom"></div>
+        <div class="map-forest forest-west"></div><div class="map-forest forest-east"></div>
+        <div class="map-forest forest-south"></div>
+        <div class="map-rock rock-a"></div><div class="map-rock rock-b"></div>
+        <button class="map-node node-one" data-level="1">
+          <span class="node-art sapling-art"><i></i></span><b>Tanam Pohon</b><small>LEVEL 1 · 5 BIBIT</small><em class="node-state">MISI TERSEDIA</em>
+        </button>
+        <button class="map-node node-two" data-level="2">
+          <span class="node-art bin-art"><i></i></span><b>Bersihkan Sungai</b><small>LEVEL 2 · 5 SAMPAH</small><em class="node-state">TERKUNCI</em>
+        </button>
+        <button class="map-node node-three" data-level="3">
+          <span class="node-art paw-art"><i></i></span><b>Selamatkan Satwa</b><small>LEVEL 3 · 3 SATWA</small><em class="node-state">TERKUNCI</em>
+        </button>
+        <div class="map-progress">
+          <span class="progress-leaf">✿</span><div><b>JEJAK KEBAIKAN</b><small><span id="mapProgress">0 / 3</span> misi selesai</small></div>
+          <div class="progress-track"><i id="mapProgressBar"></i></div>
+        </div>
+        <div class="map-compass">N <span>✦</span></div>
+      </div>
+    </section>
+
+    <section id="game" class="page">
+      <div class="game-heading">
+        <div><span class="eyebrow"><i></i> <span id="levelEyebrow">LEVEL 1 · MISI MENANAM</span></span><h1 id="gameTitle">Tanam Pohon</h1><p id="gameInstructions">Jelajahi rimba dan kumpulkan bibit pohon untuk memulihkan hutan.</p></div>
+        <div class="game-stats">
+          <div class="player-hud">
+            <svg class="player-avatar" viewBox="0 0 52 52" role="img" aria-label="Avatar penjaga hutan">
+              <circle cx="26" cy="26" r="25" fill="#dbe9c0"/>
+              <path d="m14 36 2-12q1-8 10-8t10 8l2 12z" fill="#43804c" stroke="#315c3a" stroke-width="2"/>
+              <path d="M17 25q9-5 18 0l-2 7H19z" fill="#c7814d"/>
+              <path d="M13 18 25 9l15 7-1 4-25 1z" fill="#e2b64f" stroke="#845532" stroke-width="2"/>
+              <path d="M12 19h29" stroke="#845532" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="23" cy="26" r="1" fill="#392f27"/><circle cx="30" cy="26" r="1" fill="#392f27"/>
+              <path d="M23 30q4 3 7 0" fill="none" stroke="#75402d" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="player-xp"><b>LEVEL <span id="playerLevel">1</span></b><small><span id="xpValue">0</span>/100 XP</small><i><em id="xpBar"></em></i></span>
+          </div>
+          <span class="stat-chip heart-chip"><i>♥ ♥ ♥</i><small>NYAWA</small></span>
+          <span class="stat-chip"><i class="stat-leaf">✦</i><b id="gamePoints">0</b><small>ECO POINT</small></span>
+          <span class="stat-chip"><i class="stat-target">◎</i><b id="seedCount">0/5</b><small>PROGRES</small></span>
+        </div>
+      </div>
+      <div class="game-frame">
+        <canvas id="gameCanvas" width="900" height="500" aria-label="Permainan hutan: gerakkan penjaga hutan dan kumpulkan objek misi"></canvas>
+        <div class="canvas-badge"><span>●</span> RIMBA NUSANTARA <b id="canvasLevel">LEVEL 1</b></div>
+        <div class="minimap" aria-label="Minimap hutan"><span class="mini-river"></span><i class="mini-player"></i><b>UTARA</b></div>
+        <button class="pause-button" id="pauseGame" aria-label="Jeda permainan" aria-pressed="false"><span>Ⅱ</span> JEDA</button>
+        <div class="pause-overlay" id="pauseOverlay" hidden>
+          <div class="pause-panel">
+            <span class="pause-leaf">❧</span><span class="eyebrow">ISTIRAHAT SEJENAK</span>
+            <h2>Permainan Dijeda</h2><p>Petualanganmu tersimpan. Siap kembali ke rimba?</p>
+            <button class="btn btn-primary" id="resumeGame">▶ Lanjut Bermain</button>
+            <button class="btn btn-wood" id="pauseRestart">↻ Ulangi Misi</button>
+          </div>
+        </div>
+      </div>
+      <div class="game-controls">
+        <span><kbd>W A S D</kbd> atau <kbd>↑ ↓ ← →</kbd><small>BERGERAK</small></span>
+        <span><kbd>SPACE</kbd><small>AMBIL / BANTU</small></span>
+        <button class="btn btn-small btn-wood" id="restartGame">↻ Ulangi Misi</button>
+        <button class="text-button" data-page="map">Kembali ke peta ↗</button>
+      </div>
+      <p id="gameMessage" class="game-message">Ayo kumpulkan 5 bibit pohon untuk menyelesaikan misi!</p>
+    </section>
+
+    <section id="success" class="page">
+      <div class="success-card">
+        <div class="success-art">
+          <div class="success-sun"></div><div class="success-tree tree-success-a"></div><div class="success-tree tree-success-b"></div>
+          <svg class="success-critter success-orangutan" viewBox="0 0 100 75" aria-hidden="true">
+            <path d="M14 48q4-23 32-22 25 0 36 18L75 61H25z" fill="#a85d32" stroke="#603f2c" stroke-width="4"/>
+            <circle cx="70" cy="28" r="18" fill="#bb7040" stroke="#603f2c" stroke-width="4"/>
+            <circle cx="59" cy="26" r="6" fill="#e4bd8c"/><circle cx="81" cy="26" r="6" fill="#e4bd8c"/>
+            <circle cx="65" cy="28" r="2" fill="#382a24"/><circle cx="77" cy="28" r="2" fill="#382a24"/>
+            <path d="M66 37q6 5 12 0m-48 18-3 13m26-13 3 13" fill="none" stroke="#70442e" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <svg class="success-critter success-tiger" viewBox="0 0 120 78" aria-hidden="true">
+            <path d="M15 45q9-22 42-22h29q21 0 25 22l-5 17H18z" fill="#e5a944" stroke="#573d2c" stroke-width="4"/>
+            <circle cx="92" cy="29" r="17" fill="#e5a944" stroke="#573d2c" stroke-width="4"/>
+            <path d="m78 17 4-10 10 6 8-8 9 16m-77 9 9 11-9 9 11 9m18-35 8 12-10 8 10 11m29-25-7 11 8 8" fill="none" stroke="#573d2c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="88" cy="28" r="2" fill="#342b25"/><circle cx="99" cy="28" r="2" fill="#342b25"/>
+            <path d="M84 38q7 5 14 0m-57 18-2 13m51-13 2 13" fill="none" stroke="#573d2c" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <svg class="success-critter success-deer" viewBox="0 0 85 75" aria-hidden="true">
+            <path d="M13 46q7-16 34-14 18 1 23 16L64 58H20z" fill="#bb935c" stroke="#654c32" stroke-width="4"/>
+            <path d="m53 36 4-16 13-9 11 12-5 17" fill="#c59b63" stroke="#654c32" stroke-width="4" stroke-linejoin="round"/>
+            <path d="m64 13-5-9m10 8 4-9" stroke="#654c32" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="68" cy="23" r="2" fill="#342b25"/><path d="m27 55-2 15m30-14 3 14" stroke="#654c32" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          <svg class="success-critter success-hornbill" viewBox="0 0 95 70" aria-hidden="true">
+            <path d="M18 45q6-24 34-19 18 4 23 23-19-9-31 9-16 0-26-13z" fill="#263e32" stroke="#f4e8c8" stroke-width="3"/>
+            <path d="M43 29q9-20 27-12 13 7 11 23-12-8-23-1z" fill="#f3ead1" stroke="#263e32" stroke-width="3"/>
+            <path d="M69 23q16-14 24-2-5 12-23 12z" fill="#e2aa43" stroke="#573d2c" stroke-width="3"/>
+            <circle cx="70" cy="27" r="2" fill="#202c25"/><path d="M26 40 7 29l8 20-8 12 23-7" fill="#314e3d" stroke="#263e32" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+          <svg viewBox="0 0 130 175" aria-hidden="true"><path d="m34 94-15 43 20 9 23-38m31-17 20 40-17 12-29-36" fill="#a96236" stroke="#553c2c" stroke-width="5" stroke-linejoin="round"/><path d="m36 74-5-35 22-25 43 3 21 29-8 39-24 22-37-8z" fill="#bd7746" stroke="#68442f" stroke-width="5"/><path d="M31 38 48 15l45-4 31 19-4 10-89 5z" fill="#e9bc53" stroke="#68442f" stroke-width="5"/><path d="m55 59 4 2m26-2 4-2m-30 18q13 10 24-1" fill="none" stroke="#493329" stroke-width="4" stroke-linecap="round"/><path d="m42 92-17 25m73-30 20 23" stroke="#bd7746" stroke-width="12" stroke-linecap="round"/><path d="m48 92 20 9 23-11 13 36-36 17-28-24z" fill="#39764a"/></svg>
+          <span class="success-spark spark-a">✦</span><span class="success-spark spark-b">✦</span>
+        </div>
+        <span class="eyebrow"><i></i> MISI TUNTAS, PENJAGA!</span>
+        <h1>Misi Berhasil!</h1>
+        <p id="successMessage">Hutan semakin lestari berkat bantuanmu.</p>
+        <div class="reward-box">
+          <div><span class="reward-icon">✿</span><span><small>MISI SELESAI</small><b id="successObjective">5 / 5 Bibit terkumpul</b></span></div>
+          <div><span class="reward-icon reward-gold">✦</span><span><small>HADIAH PETUALANGAN</small><b id="successReward">+100 Eco Point</b></span></div>
+        </div>
+        <div class="xp-row"><span>LEVEL PENJAGA <b id="successLevel">1</b></span><span>XP <b id="successXp">50/100 XP</b></span></div>
+        <div class="success-xp-track"><i id="successXpBar"></i></div>
+        <div class="hero-buttons success-buttons">
+          <button class="btn btn-primary" data-action="replay">▶ Main Lagi</button>
+          <button class="btn btn-wood" data-page="home">⌂ Kembali ke Beranda</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="encyclopedia" class="page">
+      <div class="page-title"><span class="eyebrow"><i></i> SAHABAT DI RIMBA</span><h1>Ensiklopedia Satwa</h1><p>Kenali penghuni hutan tropis dan cara kita menjaga rumah mereka.</p></div>
+      <div class="animal-grid">
+        <article class="animal-card orangutan-card"><span class="animal-illustration">🦧</span><div><small>PENGHUNI KANOPI</small><h3>Orangutan</h3><p>Primata cerdas dari Sumatra dan Kalimantan. Ia membantu menyebarkan biji dan menjaga hutan tetap tumbuh.</p></div></article>
+        <article class="animal-card tiger-card"><span class="animal-illustration">🐅</span><div><small>PENJAGA RIMBA</small><h3>Harimau Sumatra</h3><p>Kucing besar endemik Indonesia yang membutuhkan hutan luas dan sehat sebagai tempat hidup.</p></div></article>
+        <article class="animal-card deer-card"><span class="animal-illustration">🦌</span><div><small>SAHABAT PADANG</small><h3>Rusa</h3><p>Herbivor yang menjadi bagian penting rantai makanan dan keseimbangan ekosistem hutan.</p></div></article>
+        <article class="animal-card hornbill-card"><span class="animal-illustration">🦜</span><div><small>PENYEBAR BIJI</small><h3>Burung Rangkong</h3><p>Burung berparuh khas yang membantu menyebarkan benih pohon ke berbagai penjuru rimba.</p></div></article>
+      </div>
+    </section>
+
+    <section id="settings" class="page">
+      <div class="page-title"><span class="eyebrow"><i></i> PERLENGKAPAN PENJAGA</span><h1>Pengaturan</h1><p>Sesuaikan petualanganmu sebelum kembali ke rimba.</p></div>
+      <div class="settings-card">
+        <div class="settings-emblem">⚙</div><div><span class="eyebrow">PANDUAN PETUALANG</span><h2>Kontrol permainan</h2><p>Gunakan tombol di bawah untuk menjelajah dan membantu kehidupan hutan.</p>
+          <div class="setting-row"><span><kbd>W A S D</kbd> atau <kbd>↑ ↓ ← →</kbd><b>Bergerak menjelajahi hutan</b></span><span class="setting-check">SIAP</span></div>
+          <div class="setting-row"><span><kbd>SPACE</kbd><b>Ambil bibit, bersihkan sampah, atau bantu satwa</b></span><span class="setting-check">SIAP</span></div>
+          <div class="settings-note">🌱 Setiap aksi baik membuat hutan Indonesia lebih lestari.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navigasi utama">
+    <button class="nav-item active" data-page="home"><span>⌂</span><small>Beranda</small></button>
+    <button class="nav-item" data-page="map"><span>⌖</span><small>Peta Misi</small></button>
+    <button class="nav-item" data-page="encyclopedia"><span>✿</span><small>Ensiklopedia</small></button>
+    <button class="nav-item" data-page="settings"><span>⚙</span><small>Pengaturan</small></button>
+  </nav>
+  <script src="js/game.js"></script>
+</body>
+</html>
